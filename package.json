@@ -1,20 +1,25 @@
 {
-  "name": "chaibackend",
+  "name": "chai-backend",
   "version": "1.0.0",
-  "description": "a basic app to deploy",
+  "description": "a backend at chai aur code",
   "keywords": [
-    "node",
+    "javascript",
+    "backend",
     "chai"
   ],
+  "homepage": "https://github.com/praykaria31/chaibackend#readme",
+  "bugs": {
+    "url": "https://github.com/praykaria31/chaibackend/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/praykaria31/chaibackend.git"
+  },
   "license": "ISC",
   "author": "pray karia",
   "type": "commonjs",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
-  },
-  "dependencies": {
-    "dotenv": "^17.2.3",
-    "express": "^5.2.1"
+    "test": "echo \"Error: no test specified\" && exit 1"
   }
 }
